@@ -62,9 +62,9 @@ function RouteResponse (res) {
    */
   self.setData = function (data) {
     if (data && !_.isEmpty(data)) {
-      _status = exports.SUCCESS;
+      _status = exports.status.SUCCESS;
     } else {
-      _status = exports.WARN;
+      _status = exports.status.WARN;
     }
 
     _data = data;
