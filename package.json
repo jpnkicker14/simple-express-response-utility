@@ -1,0 +1,11 @@
+{
+  "name": "simple-express-response-utility",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^3.10.1"
+  }
+}
